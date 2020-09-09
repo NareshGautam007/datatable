@@ -1,9 +1,9 @@
 <?php
 
 
-define (DB_USER, "dancehel_micro");
-define (DB_PASSWORD, "2&S#u*u?]t,K");
-define (DB_DATABASE, "dancehel_micro");
+define (DB_USER, "USER");
+define (DB_PASSWORD, "PASS");
+define (DB_DATABASE, "DB");
 define (DB_HOST, "localhost");
 
 
