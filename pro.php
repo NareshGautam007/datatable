@@ -4,7 +4,7 @@
 require('config.php');
 
 
-$sql ="SELECT * FROM Registration  ORDER BY ID DESC";
+$sql ="SELECT * FROM TABLE  ORDER BY ID DESC";
 $result = $mysqli->query($sql);
 
 
