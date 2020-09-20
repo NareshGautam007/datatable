@@ -72,7 +72,7 @@ mysqli_close($conn);
 				</table>
                 <hr>
                 Thanks.<br>
-                Website: https://www.dancehelpline.com/
+                Website: https://www.Domain.com/
             </div>
         </div></center>
     </body>
@@ -80,18 +80,18 @@ mysqli_close($conn);
 require("smtpmailer/class.phpmailer.php");
 $mail = new PHPMailer();
 $mail->IsSMTP();
-$mail->Host = "dancehelpline.com";
+$mail->Host = "server.com";
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = "ssl";
 $mail->Port = 465;
-$mail->Username = "support@dancehelpline.com";
+$mail->Username = "support@server.com";
 $mail->Password = "%rX0AN#Aq$4J";
-$mail->From = "support@dancehelpline.com";
-$mail->FromName = "Dancehelpline  Query  $name ";
-$mail->AddAddress("naresh.ahirwar.tma@gmail.com");
+$mail->From = "support@Server.com";
+$mail->FromName = "Server  $name ";
+$mail->AddAddress("support@gmail.com");
 
-$mail->AddAddress("test@registration.dancehelpline.com");
-$mail->AddReplyTo($email, 'From the Admin Dancehelpline');
+$mail->AddAddress("test@registration.server.com");
+$mail->AddReplyTo($email, 'From the Admin Server');
 
 $mail->IsHTML(true);
 // Email body content
@@ -102,7 +102,7 @@ if(!$mail->send())
 { 
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 }else{
-   echo "<script>window.location='https://registration.dancehelpline.com/thank-you.php';</script>";
+   echo "<script>window.location='https://registration.server.com/thank-you.php';</script>";
    //header("Location: index.php");
 }
        
