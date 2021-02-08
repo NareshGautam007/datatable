@@ -1,14 +1,16 @@
-
-
-
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor Testing..!!</title>
+</head>
+<body>
 
 <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 <div class="form-group">
 <textarea class="form-control" name="description_emp" id="editor1" placeholder="Description"> </textarea>
 <span class="material-input"></span></div>
 </div>
-
+</body>
 
 
 <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
